@@ -90,6 +90,7 @@ class CountryConverter:
 					self.cursorDBLP.execute(q3)
 					self.connDBLP.commit()
 			else: fails[i[dbcolumnID]]=ind
+			print `i[dbcolumnID]`+" / "+`total`
 
 		self.connDBLP.close()	
 		return fails
