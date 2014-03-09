@@ -50,7 +50,7 @@ ET	ethiopia
 FI										
 FJ										
 FK										
-FR	france									
+FR	france	guadeloupe	ile de france							
 GA										
 GB	united kingdom	united kingdon	england	u.k.	uk	britain				
 GE										

@@ -23,8 +23,8 @@ class CountryConverter:
 			return C
 		if self.dictISO.has_key(C):
 			return self.dictISO[C]
-		if self.dictAlt.has_key(c):
-			return self.dictAlt[c]
+		if self.dictAlt.has_key(C):
+			return self.dictAlt[C]
 
 
 	def getCountries(self,filename):
@@ -56,7 +56,7 @@ class CountryConverter:
 			a=Alternatives[i]
 			if len(a)>0:
 				for j in a:
-					self.dictAlt[j]=i
+					self.dictAlt[j.upper()]=i
 
 
 	def convertAll(self,write):
