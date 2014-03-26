@@ -2,10 +2,10 @@
 from converter import CountryConverter
 import pprint as p
 
-dbname="ademe_academic (copia).db"
-dbtable="ISIC1Country"
+dbname="ademe (copia).db"
+dbtable="COUNTRY"
 dbcolumnID="rowid"
-dbcolumnName="data"
+dbcolumnName="country"
 
 # IF (write = False) you will see the exceptions before write anything
 write=False
